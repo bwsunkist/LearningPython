@@ -64,9 +64,7 @@ print(nums)
 (a,b,c) = tuple(range(2, 5))#変数に格納
 print(a, b, c)
 
-x = [1,2][(1, 7), (2, 8)]
-y = [7,8]
+x = [ 1, 2 ]
+y = [ 7, 8 ]
 xy = zip(x, y)
 print(list(xy))#[(1, 7), (2, 8)]
-
-# %%
